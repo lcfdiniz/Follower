@@ -1,6 +1,8 @@
 # Follower
 ROS package for transmission line tracking using YOLO, MAVROS and PX4 Autopilot.
 
+![alt text](https://github.com/lcfdiniz/Follower/blob/master/follower_cover.png?raw=true)
+
 ## Guia do usuário do pacote “follower”
 
 O pacote “follower” é um pacote ROS criado para permitir o controle Offboard de um VANT simulado. Este pacote possui scripts escritos em linguagem python utilizados para a comunicação com um sistema de piloto automático (Autopilot) por mensagens MAVLink através do pacote MAVROS. 
