@@ -1,7 +1,7 @@
 # Follower
 ROS package for transmission line tracking using YOLO, MAVROS and PX4 Autopilot.
 
-![alt text](https://github.com/lcfdiniz/Follower/blob/master/follower_cover.png?raw=true)
+![alt text](https://github.com/lcfdiniz/Follower/blob/master/follower_img.png?raw=true)
 
 ## Guia do usuário do pacote “follower”
 
