@@ -51,15 +51,14 @@ find_package(OpenCV)
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
-  flw.msg
+  Follower.msg
 )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files(
+  FILES
+  Detection.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -162,6 +161,9 @@ include_directories(
 #   scripts/my_python_script
 #   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 # )
+catkin_install_python(PROGRAMS scripts/detection_server.py scripts/detection_client.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
 
 ## Mark executables for installation
 ## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_executables.html

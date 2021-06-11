@@ -2,11 +2,9 @@
 <package format="2">
   <name>follower</name>
   <version>0.0.0</version>
-  <description>The follower package</description>
+  <description>This is a ROS package that works together with MAVROS to implement 230k single circuit transmission line following and landing</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
-  <!-- Example:  -->
-  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
   <maintainer email="lucas.diniz@engenharia.ufjf.br">Lucas Diniz</maintainer>
 
 

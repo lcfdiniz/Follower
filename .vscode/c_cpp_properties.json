@@ -1,28 +1,33 @@
 {
-  "configurations": [
-    {
-      "browse": {
-        "databaseFilename": "",
-        "limitSymbolsToIncludedHeaders": true
-      },
-      "includePath": [
-        "/home/lucas/catkin_ws/devel/include",
-        "/opt/ros/melodic/include",
-        "/home/lucas/catkin_ws/src/avoidance/avoidance/include",
-        "/home/lucas/catkin_ws/src/avoidance/global_planner/include",
-        "/home/lucas/catkin_ws/src/image_proc/include",
-        "/home/lucas/catkin_ws/src/mavros/libmavconn/include",
-        "/home/lucas/catkin_ws/src/avoidance/local_planner/include",
-        "/home/lucas/catkin_ws/src/mavros/mavros/include",
-        "/home/lucas/catkin_ws/src/mavros/mavros_msgs/include",
-        "/home/lucas/catkin_ws/src/ros_essentials_cpp/include",
-        "/home/lucas/catkin_ws/src/avoidance/safe_landing_planner/include",
-        "/home/lucas/catkin_ws/src/aplanner/aplanner/simulador_uav/include",
-        "/home/lucas/catkin_ws/src/mavros/test_mavros/include",
-        "/home/lucas/catkin_ws/src/tutorial/include",
-        "/usr/include"
-      ],
-      "name": "Linux"
-    }
-  ]
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/lucas/catkin_ws/devel/include",
+                "/opt/ros/melodic/include",
+                "/home/lucas/catkin_ws/src/avoidance/avoidance/include",
+                "/home/lucas/catkin_ws/src/avoidance/global_planner/include",
+                "/home/lucas/catkin_ws/src/image_proc/include",
+                "/home/lucas/catkin_ws/src/mavros/libmavconn/include",
+                "/home/lucas/catkin_ws/src/avoidance/local_planner/include",
+                "/home/lucas/catkin_ws/src/mavros/mavros/include",
+                "/home/lucas/catkin_ws/src/mavros/mavros_msgs/include",
+                "/home/lucas/catkin_ws/src/ros_essentials_cpp/include",
+                "/home/lucas/catkin_ws/src/avoidance/safe_landing_planner/include",
+                "/home/lucas/catkin_ws/src/aplanner/aplanner/simulador_uav/include",
+                "/home/lucas/catkin_ws/src/mavros/test_mavros/include",
+                "/home/lucas/catkin_ws/src/tutorial/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
 }
