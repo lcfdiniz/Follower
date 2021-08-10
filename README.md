@@ -94,6 +94,10 @@ Para todos os tipos de serviço de detecção, o drone utiliza imagens recebidas
 | measure_line_mode | - | - | Sim | - |
 | one_line_mode | - | - | - | Sim |
 
+## Vídeo
+
+https://www.youtube.com/watch?v=iXbgA6EO1hE&t
+
 ## Dúvidas?
 
 Entre em contato! lucas.diniz@engenharia.ufjf.br
